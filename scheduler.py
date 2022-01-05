@@ -10,7 +10,7 @@ def run():
     os.system('python3 driver.py')
     return
 
-schedule.every().friday.at("10:35").do(run)
+schedule.every().friday.at("00:30").do(run)
 
 while True:
     schedule.run_pending()
